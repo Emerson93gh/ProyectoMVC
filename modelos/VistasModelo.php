@@ -4,6 +4,7 @@ class VistasModelo {
     /* --- Modelo obtener vistas --- */
     protected static function obtenerVistasModelo($vistas){
         //lista blanca para la URL
+        //PRUEBA
         $listaBlanca = ["home"];
         if(in_array($vistas, $listaBlanca)){
             if(is_file("./vistas/contenidos/".$vistas."-view.php")){
